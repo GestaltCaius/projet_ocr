@@ -1,0 +1,4 @@
+3
+/home/epita/projet_ocr/ocr/ocr-bibl/training/DejaVuSansMono.ttf/
+/home/epita/projet_ocr/ocr/ocr-bibl/training/arial.ttf/
+/home/epita/projet_ocr/ocr/ocr-bibl/training/

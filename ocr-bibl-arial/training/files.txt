@@ -1,0 +1,3 @@
+2
+/home/khoyo/ocr/ocr-bibl/training/arial.ttf/
+/home/khoyo/ocr/ocr-bibl/training

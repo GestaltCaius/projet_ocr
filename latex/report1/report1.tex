@@ -1,0 +1,121 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+% \usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+% \usepackage{lmodern} % Pour changer le pack de police
+\usepackage[top=3cm, bottom=2.5cm, left=4cm, right=3cm]{geometry}
+\usepackage{setspace} % Interligne de 1,5
+% \onehalfspacing
+\setstretch{1.5}
+\usepackage{parskip}
+\setlength{\parindent}{4em} % Alinéa de 4 espaces
+\setlength{\parskip}{2em} % Interligne de 2 entre chaque paragraphes
+\usepackage{titling} % Permet d'ajouter un sous-titre et image EPITA
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+  \begin{center}\large#1\end{center}
+  \vskip0.5em}%
+}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage[bottom]{footmisc} % Oblige les footnotes à être en bas
+% \usepackage{caption}
+% \usepackage{subcaption}
+% \usepackage{layout}
+% \usepackage{setspace}
+% \usepackage{soul}
+% \usepackage{ulem}
+\usepackage{eurosym}
+% \usepackage{bookman}
+% \usepackage{charter}
+% \usepackage{newcent}
+% \usepackage{lmodern}
+% \usepackage{mathpazo}
+% \usepackage{mathptmx}
+% \usepackage{url}
+% \usepackage{verbatim}
+% \usepackage{moreverb}
+% \usepackage{listings}
+% \lstset{ %
+% language=[Sharp]C,        % choix du langage
+% basicstyle=\footnotesize,       % taille de la police du code
+% numbers=left,                   % placer le numéro de chaque ligne à gauche (left) 
+% numberstyle=\normalsize,        % taille de la police des numéros
+% numbersep=7pt,                  % distance entre le code et sa numérotation
+% }
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Les Louveteaux}
+\lhead{\textbf{\textsc{OCR}} - Rapport de soutenance}
+\cfoot{\thepage}
+% \usepackage{wrapfig}
+\usepackage{color}
+\usepackage{colortbl}
+% \usepackage{amsmath}
+% \usepackage{amssymb}
+% \usepackage{mathrsfs}
+% \usepackage{asmthm}
+\usepackage{makeidx}
+\definecolor{grisclair}{gray}{0.8} % niveau de gris
+
+% Le titre
+\pretitle{%
+  \begin{center}
+    \LARGE
+    \includegraphics[width=0.5\linewidth]{src/logoepita.png}\\[\bigskipamount]
+  }
+  \posttitle{\end{center}}
+\title{\textsc{Reconnaissance optique de caractères}}
+\subtitle{Rapport de soutenance}
+\author{\textbf{Les Louveteaux} \\ \\ Théo \textsc{Berger} (berger\_e), \\ Loup \textsc{Federico} (federi\_l), \\ Rodolphe \textsc{Guillaume} (guilla\_w) \\ Younes \textsc{Khoudli} (khoudl\_y) \\ \\ \small{Elèves en deuxième année de classe préparatoire}}
+\date{\today}
+
+\makeindex
+
+\begin{document}
+% Settings
+\renewcommand{\listfigurename}{Table des illustrations}
+\renewcommand{\figurename}{Illustration}
+\renewcommand{\tablename}{Tableau}
+\renewcommand{\contentsname}{Sommaire}
+
+% Titre
+
+\maketitle
+\thispagestyle{empty}
+\newpage{}
+\setcounter{page}{1}
+
+\tableofcontents
+
+% Début du contenu
+
+\newpage{}
+\section*{Introduction}
+
+\section{Présentation de l'avancement du projet}
+
+	\subsection{Impressions personnelles}
+	
+		\subsubsection{h \emph{h} \textsc{h}}
+		
+		\subsubsection{Rodolphe \emph{Zboubinours} \textsc{Guillaume}}
+
+		\subsubsection{j \emph{j} \textsc{j}}
+        
+        \subsubsection{j \emph{jzz} \textsc{j}}
+		
+	\subsection{Cahier des charges}		
+		
+\section{Présentation individuelle des tâches}
+
+\section*{Conclusion} 
+	
+% Index, tables...
+\listoffigures
+\listoftables
+\end{document}
