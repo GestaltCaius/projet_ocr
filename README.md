@@ -1,8 +1,14 @@
-# Blocks detection
+# Neural network
+* Khoyo and Theobs
 
-We use an array of struct coords to store the blocks coords.
-We need a white pxls thresold to determine whether or not we are in the case of
-a spacing or the end of the block. I'm going to use the height of a line at
-first.
+# Character segmentation, Filters
+* Loup Federico and zboubinours
 
-# Line detection
+# User Interface (GTK)
+* zboubinours
+
+# Bugs/Not working
+* GTK crashes after displaying the result
+* Segmentation is not fully completed
+* It happens that the semgnetation used in the "Soutenance finale" does not frame correctly. It should be fixed with the new segmentation functions that are not fully done yet
+* Neural network recognizes only 2 fonts
